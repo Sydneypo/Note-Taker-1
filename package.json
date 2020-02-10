@@ -2,7 +2,7 @@
   "name": "note-taker",
   "version": "1.0.0",
   "description": "This app saves notes to the memory of a Node.js express server.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/NatePad/Note-Taker/issues"
   },
-  "homepage": "https://github.com/NatePad/Note-Taker#readme"
+  "homepage": "https://github.com/NatePad/Note-Taker#readme",
+  "devDependencies": {}
 }
