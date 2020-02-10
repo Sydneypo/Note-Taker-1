@@ -1,0 +1,23 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "This app saves notes to the memory of a Node.js express server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathan Sartain",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatePad/Note-Taker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NatePad/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/NatePad/Note-Taker#readme"
+}
