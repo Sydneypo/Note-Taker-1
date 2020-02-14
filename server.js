@@ -42,6 +42,10 @@ app.delete('/api/notes/:id', (req, res) => {
   res.json(true);
 });
 
+app.get('*', (req, res) => {
+  res.redirect('/');
+});
+
 app.listen(PORT, () => {
   console.log('App listening on PORT ' + PORT);
 });

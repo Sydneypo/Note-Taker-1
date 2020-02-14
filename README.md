@@ -2,7 +2,7 @@
 
 ## Description:
 
-This Node.js web server takes user input and saves it persistently in .json format in the db/db.json file. POST and DELETE routes are used to update the data. The live app is hosted by Heroku at [nates-note-taker.herokuapp.com](https://nates-note-taker.herokuapp.com/)
+This Node.js web server takes user input and saves it persistently in .json format in the db/db.json file. POST and DELETE routes are used to update the data. The live app is hosted by Heroku at [nates-note-taker.herokuapp.com](https://nates-note-taker.herokuapp.com/). **As Heroku prevents writing to db.json for security purposes, the live version's data is only saved to memory and is only semi-persistent.**
 
 ## Local installation and use:
 
